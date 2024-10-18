@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    font-family: sans-serif;
+}
+.container{
+    width:420px;
+    height:min-content;
+    background-color: rgba(255,255,255,.1);
+    border-radius:12px;
+    padding:28px;
+    color: azure;
+
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.webp?s=2048x2048&w=is&k=20&c=kTZhhTNLaFUrjzUYMNKvj_egoKGvbgCTW5PRpK5o1B0=') ;
+
+    
+}
+
+.search-box input{
+    width:80%;
+    font-size: 20px;
+   
+    text-transform: capitalize;
+    color:rgb(23, 21, 22);
+    background-color: aqua;
+    padding :12px 15px;
+    border-radius:14px;
+
+}
+.seearch-box input ::placeholder{
+    color:rgb(26, 255, 0);
+}
+.search-box button{
+    width:60px;
+    height:60px;
+    background-color: rgb(172, 239, 15);
+    border-radius:70%;
+    cursor:pionter;
+    font-size:20px;
+
+}
+.search-box button:hover{
+    color:green;
+    background-color:yellow;
+}
+.weather-body {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+    display: none;
+}
+
+.weather-box{
+  margin-block:20px;
+  text-align: center;
+
+}
+.weather-box .temp{
+    font-size:30px;
+    font-weight:800;
+    position: relative;
+}
+.weather-box sup{
+    font-size:20px;
+    position: static;
+    font-weight:600;
+    margin-left: 70px;
+    
+} 
+
+.weather-box .description{
+    font-size:20px;
+    font-weight:700;
+    text-transform:capitalize;
+}
+.weather-body .image{
+    width :60px;
+    height:60px;
+    justify-content: center;
+    align-items:center;
+}
+.weather-details{
+    width:100%;
+    display:flex;
+      justify-content:space-between;
+      margin-top : 30px;
+
+}.humidity ,.wind{
+    display:flex;
+    align-items: center;
+    
+}
+
+.humidity{
+     margin-left: 50px;
+}
+.wind{
+    margin-left : 110px;
+}
+
+.text span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.unit ,.units{
+    font-size: 16px;
+    font-weight: 650;
+    margin-right: 69px;
+    margin-bottom: 42px;
+}
+.word .wind{
+    width: 40px;
+}
